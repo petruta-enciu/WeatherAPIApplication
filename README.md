@@ -7,7 +7,7 @@ Information are then exported using configurable templates into xml/json format 
  
 ### Mood.Weather.Database:
 - managed by Radu-Obreja
-- weather publisher (source), for example Weather.com
+- configurable weather publisher(source), for example Weather.com
 - definitions used to manage locations used by clients
 - definitions used to manage configurable templates, configurable targets(shared storage, ftp server, cloud)
  
