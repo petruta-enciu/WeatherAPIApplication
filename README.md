@@ -1,7 +1,7 @@
 Weather API Application
 =====================
 
-Weather application intend to offer and web API interface to clients.
+Weather application intend to offer, through an web API interface, weather services to clients.
 It is using Weather.com api to get weather information specific to a certain location (city/country).
 Information could be then are exported using configurable templates into xml/json format to diffrrent targets(shared storage, ftp server, cloud).
  
