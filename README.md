@@ -15,13 +15,17 @@ Project is using live migrator pattern and was implemented by Radu-Obreja.
 
 ### Mood.Weather.Services:
 - managed by Petru-Ciobanu
-- contains windows scheduled application used to read weather from weather publisher (source).
+- contains windows scheduled application used to read weather from weather publisher(source)
+- save weather data into a data storage
+- optionally it could be configured to work as a service
 
 Project architecture and its implementation was done by Petru-Ciobanu. 
   
 ### Mood.Weather.Web:
 - managed by Petruta-Enciu
-- contains web api service with client support used to export weather information according configurable templates and configurable targets(shared storage, ftp server, cloud).
+- contains web api interface used to perform DML instructions against data storage
+- contains web api interface used to export weather information according configurable templates and configurable targets(shared storage, ftp server, cloud)
+- contains web api client support which will be used by clients to access exposed services 
 
 Project architecture and its implementation was done by Petruta-Enciu. 
 Dapper CRUD repository design and implementation was done by Petruta-Enciu.
