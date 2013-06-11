@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<!-- http://freetodev.wordpress.com/2009/06/24/msbuild-4-0-beforetargets-and-aftertargets/-->
+ <Target Name="BuildMoodWeatherWeb" >
+    <PropertyGroup>
+      <BuildDir>C:\JenkinsWorkspace\Mood.Weather.Web</BuildDir>
+	  <StatisticsDir>C:\JenkinsWorkspace\Statistics</StatisticsDir>
+      <ProgramsFilesDir>C:\Program Files (x86)</ProgramsFilesDir>
+	  <EmailLogger_SmtpHost>mail.moodmedia.com</EmailLogger_SmtpHost>
+      <EmailLogger_From>p.ciobanu@moodmedia.com</EmailLogger_From>
+      <EmailLogger_To> p.ciobanu@moodmedia.com</EmailLogger_To>
+      <EmalLogger_CC></EmalLogger_CC>
+      <EmailLogger_SendOnSuccess>true</EmailLogger_SendOnSuccess>
+    </PropertyGroup>
+    
+    <!--Clean and Build the solution.-->
+    <MSBuild 
+      Projects="$(BuildDir)\Mood.Weather.Web.sln"
+      Properties="Configuration=Debug"
+      Targets="Clean;Build"
+      ContinueOnError="false"
+      StopOnFirstFailure="true"/>
+
+    <!--Unit tests Mood.Weather.Web.Tests-->
+    <Exec Command="nunit-console $(BuildDir)\Mood.Weather.Web.Tests\bin\Debug\Mood.Weather.Web.Tests.dll /xml=$(StatisticsDir)\Mood.Weather.Web.Test.xml"
+          WorkingDirectory="$(ProgramsFilesDir)\NUnit 2.6.2\bin" 
+          ContinueOnError="false"/>
+
+		  
+		  
+	 <!--Unit tests Mood.Weather.Client.Test-->
+    <Exec Command="nunit-console $(BuildDir)\Mood.Weather.Client.Test\bin\Debug\Mood.Weather.Client.Test.dll /xml=$(StatisticsDir)\Mood.Weather.Client.Test.xml"
+          WorkingDirectory="$(ProgramsFilesDir)\NUnit 2.6.2\bin" 
+          ContinueOnError="false"/>	  
+		  
+		  
+    <!--Code analisys Mood.Weather.Web  -->
+    <Exec Command="fxcopcmd /f:$(BuildDir)\Mood.Weather.Web\bin\Mood.Weather.Web.dll /o:$(StatisticsDir)\codeAnalisys.fxcop"
+          WorkingDirectory="$(ProgramsFilesDir)\Microsoft Fxcop 10.0"
+          ContinueOnError="true"/>  
+  </Target>
+  
+  
+ <!-- <Target Name="BuildMoodWeatherDatabase" AfterTargets="BuildMoodWeatherWeb">-->
+  <Target Name="BuildMoodWeatherDatabase" AfterTargets="BuildMoodWeatherWeb">
+   <PropertyGroup>
+      <BuildDir>C:\JenkinsWorkspace\Mood.Weather.Database</BuildDir>
+	  <StatisticsDir>C:\JenkinsWorkspace\Statistics</StatisticsDir>
+      <ProgramsFilesDir>C:\Program Files(x86)</ProgramsFilesDir>
+	  <EmailLogger_SmtpHost>192.168.26.102</EmailLogger_SmtpHost>
+      <EmailLogger_From>peter@192.168.26.102</EmailLogger_From>
+      <EmailLogger_To> p.ciobanu@moodmedia.com</EmailLogger_To>
+      <EmalLogger_CC></EmalLogger_CC>
+      <EmailLogger_SendOnSuccess>true</EmailLogger_SendOnSuccess>
+	  <FluentPath>C:\JenkinsMicrosoft\FluentMigrator</FluentPath>
+	  <ConnectionString>server=192.168.0.193;user=sa;pwd=K4hvdrq2d3;database=weather</ConnectionString>
+	  <DataBaseSource>C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\bin\Debug\Mood.Weather.Database.dll</DataBaseSource>
+	  <FluentMigrator> --conn "server=PROTOS\SQLEXPRESS;user id=sa;pwd=K4hvdrq2d3;database=weather" --provider sqlserver2008 --assembly "$(BuildDir)\bin\Debug\Mood.Weather.Database.dll" --task migrate --output --outputFilename migrated.sql --verbose 5"</FluentMigrator>
+    </PropertyGroup>
+  
+    <!--Clean and Build the solution.-->
+    <MSBuild 
+      Projects="$(BuildDir)\Mood.Weather.Database.sln"
+      Properties="Configuration=Debug"
+      Targets="Clean;Build"
+      ContinueOnError="false"
+      StopOnFirstFailure="true"/>
+	  
+	 <!--Deploy DataBase To Server  -->
+     <Exec Command="Migrate.exe --conn=$(ConnectionString)  --provider sqlserver2008 --assembly=$(DataBaseSource) --task migrate --version 1 --verbose 5" 
+          ContinueOnError="true"/>    
+  </Target>
+  
+  
+</Project>

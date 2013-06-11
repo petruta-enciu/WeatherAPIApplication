@@ -1,0 +1,1 @@
+msbuild MoodWeather.build /l:EmailLogger,EmailLogger.dll;logfile=test.log

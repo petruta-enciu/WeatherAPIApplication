@@ -1,0 +1,876 @@
+Build started 5/29/2013 3:52:46 PM.
+__________________________________________________
+Project "C:\JenkinsWorkspace\MoodWeather.build" (default targets):
+
+Target BuildMoodWeatherWeb:
+    __________________________________________________
+    Project "C:\JenkinsWorkspace\MoodWeather.build" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.sln" (Clean;Build target(s)):
+
+    Target ValidateSolutionConfiguration:
+        Building solution configuration "Debug|Any CPU".
+    Target Clean:
+        __________________________________________________
+        Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.sln" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" (Clean target(s)):
+
+        Target CoreClean:
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\Mood.Weather.Infrastructure.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\Mood.Weather.Infrastructure.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\Dapper.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\Dapper.Mapper.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\DapperExtensions.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\Mood.Weather.Domain.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\Mood.Weather.Domain.Models.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\mscorlib.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\Mood.Weather.Domain.Models.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\Mood.Weather.Domain.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\Dapper.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\Dapper.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\Dapper.Mapper.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\DapperExtensions.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\normidna.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\normnfc.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\normnfd.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\normnfkc.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\normnfkd.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\obj\Debug\Mood.Weather.Infrastructure.csprojResolveAssemblyReference.cache".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\obj\Debug\Mood.Weather.Infrastructure.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\obj\Debug\Mood.Weather.Infrastructure.pdb".
+        Target CleanReferencedProjects:
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\Mood.Weather.Domain.Models.csproj" (Clean target(s)):
+
+            Target CoreClean:
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\Mood.Weather.Domain.Models.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\Mood.Weather.Domain.Models.pdb".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\mscorlib.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\normidna.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\normnfc.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\normnfd.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\normnfkc.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\normnfkd.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\obj\Debug\Mood.Weather.Domain.Models.csprojResolveAssemblyReference.cache".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\obj\Debug\Mood.Weather.Domain.Models.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\obj\Debug\Mood.Weather.Domain.Models.pdb".
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\Mood.Weather.Domain.Models.csproj" (Clean target(s)):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\Mood.Weather.Domain.csproj" (Clean target(s)):
+
+            Target CoreClean:
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\Mood.Weather.Domain.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\Mood.Weather.Domain.pdb".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\mscorlib.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\normidna.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\normnfc.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\normnfd.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\normnfkc.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\normnfkd.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\obj\Debug\Mood.Weather.Domain.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\obj\Debug\Mood.Weather.Domain.pdb".
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\Mood.Weather.Domain.csproj" (Clean target(s)):
+
+        __________________________________________________
+        Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.sln" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\Mood.Weather.Client.Test.csproj" (Clean target(s)):
+
+        Target CoreClean:
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\Mood.Weather.Client.Test.dll.config".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\Mood.Weather.Client.Test.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\Mood.Weather.Client.Test.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\Mood.Weather.Client.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\Mood.Weather.Domain.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\Mood.Weather.Domain.Models.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\mscorlib.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\Newtonsoft.Json.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\nunit.framework.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\nunit.framework.helpers.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\nunit.mocks.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\System.Net.Http.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\System.Net.Http.Formatting.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\System.Net.Http.WebRequest.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\Mood.Weather.Client.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\Mood.Weather.Domain.Models.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\Mood.Weather.Domain.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\Newtonsoft.Json.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\nunit.framework.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\nunit.framework.helpers.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\System.Net.Http.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\System.Net.Http.Formatting.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\System.Net.Http.WebRequest.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\normidna.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\normnfc.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\normnfd.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\normnfkc.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\normnfkd.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\obj\Debug\Mood.Weather.Client.Test.csprojResolveAssemblyReference.cache".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\obj\Debug\Mood.Weather.Client.Test.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\obj\Debug\Mood.Weather.Client.Test.pdb".
+        Target CleanReferencedProjects:
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\Mood.Weather.Client.Test.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\Mood.Weather.Domain.Models.csproj" (Clean target(s)):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\Mood.Weather.Client.Test.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\Mood.Weather.Domain.csproj" (Clean target(s)):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\Mood.Weather.Client.Test.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\Mood.Weather.Client.csproj" (Clean target(s)):
+
+            Target CoreClean:
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\Mood.Weather.Client.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\Mood.Weather.Client.pdb".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\Mood.Weather.Domain.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\Mood.Weather.Domain.Models.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\mscorlib.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\Newtonsoft.Json.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\System.Net.Http.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\System.Net.Http.Formatting.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\System.Net.Http.WebRequest.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\Mood.Weather.Domain.Models.pdb".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\Mood.Weather.Domain.pdb".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\Newtonsoft.Json.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\System.Net.Http.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\System.Net.Http.Formatting.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\System.Net.Http.WebRequest.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\normidna.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\normnfc.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\normnfd.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\normnfkc.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\normnfkd.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\obj\Debug\Mood.Weather.Client.csprojResolveAssemblyReference.cache".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\obj\Debug\Mood.Weather.Client.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\obj\Debug\Mood.Weather.Client.pdb".
+            Target CleanReferencedProjects:
+                __________________________________________________
+                Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\Mood.Weather.Client.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\Mood.Weather.Domain.Models.csproj" (Clean target(s)):
+
+                __________________________________________________
+                Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\Mood.Weather.Client.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\Mood.Weather.Domain.csproj" (Clean target(s)):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\Mood.Weather.Client.Test.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\Mood.Weather.Client.csproj" (Clean target(s)):
+
+        __________________________________________________
+        Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.sln" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\Mood.Weather.Web.Tests.csproj" (Clean target(s)):
+
+        Target CoreClean:
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Mood.Weather.Web.Tests.dll.config".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Mood.Weather.Web.Tests.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Mood.Weather.Web.Tests.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Mood.Weather.Web.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\mscorlib.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Newtonsoft.Json.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\nunit.framework.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Net.Http.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Net.Http.WebRequest.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.Helpers.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.Http.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.Mvc.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.Razor.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.WebPages.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Ninject.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.Optimization.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Ninject.Web.Common.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\WebActivator.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Mood.Weather.Web.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\nunit.framework.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Newtonsoft.Json.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Net.Http.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Net.Http.WebRequest.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.Helpers.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.Http.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.Mvc.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.Razor.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.WebPages.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\System.Web.WebPages.Razor.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Ninject.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Ninject.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Ninject.Web.Common.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Ninject.Web.Common.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\normidna.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\normnfc.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\normnfd.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\normnfkc.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\normnfkd.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\obj\Debug\Mood.Weather.Web.Tests.csprojResolveAssemblyReference.cache".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\obj\Debug\Mood.Weather.Web.Tests.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\obj\Debug\Mood.Weather.Web.Tests.pdb".
+        Target CleanReferencedProjects:
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\Mood.Weather.Web.Tests.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\Mood.Weather.Web.csproj" (Clean target(s)):
+
+            Target CoreClean:
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Mood.Weather.Web.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Mood.Weather.Web.pdb".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Antlr3.Runtime.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\BundleTransformer.Core.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\EntityFramework.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Microsoft.Web.Infrastructure.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Microsoft.Web.Optimization.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Mood.Weather.Infrastructure.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\mscorlib.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Newtonsoft.Json.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Ninject.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Ninject.Web.Common.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Ninject.Web.Mvc.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Net.Http.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Net.Http.Formatting.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Net.Http.WebRequest.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.Helpers.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.Http.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.Http.WebHost.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.Mvc.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.Optimization.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.Providers.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.Razor.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.WebPages.Deployment.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.WebPages.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.WebPages.Razor.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\WebActivator.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\WebActivatorEx.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\WebGrease.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Mood.Weather.Infrastructure.pdb".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Antlr3.Runtime.pdb".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Newtonsoft.Json.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Ninject.pdb".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Ninject.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Ninject.Web.Common.pdb".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Ninject.Web.Common.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Ninject.Web.Mvc.pdb".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Ninject.Web.Mvc.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.Razor.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\EntityFramework.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Net.Http.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Net.Http.Formatting.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Net.Http.WebRequest.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.Helpers.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.Http.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.Http.WebHost.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.Mvc.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.WebPages.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.WebPages.Deployment.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.WebPages.Razor.xml".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\ru-ru\BundleTransformer.Core.resources.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\normidna.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\normnfc.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\normnfd.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\normnfkc.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\normnfkd.nlp".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\obj\Debug\Mood.Weather.Web.csprojResolveAssemblyReference.cache".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\obj\Debug\Mood.Weather.Web.dll".
+                Deleting file "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\obj\Debug\Mood.Weather.Web.pdb".
+            Target CleanReferencedProjects:
+                __________________________________________________
+                Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\Mood.Weather.Web.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" (Clean target(s)):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\Mood.Weather.Web.Tests.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\Mood.Weather.Web.csproj" (Clean target(s)):
+
+    Target Build:
+        __________________________________________________
+        Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.sln" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\Mood.Weather.Web.csproj" (default targets):
+
+        Target GetReferenceAssemblyPaths:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+        Done building target "GetReferenceAssemblyPaths" in project "Mood.Weather.Web.csproj".
+        Target ResolveProjectReferences:
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\Mood.Weather.Web.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" (default targets):
+
+            Target GetReferenceAssemblyPaths:
+                C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+            Done building target "GetReferenceAssemblyPaths" in project "Mood.Weather.Infrastructure.csproj".
+            Target ResolveProjectReferences:
+                __________________________________________________
+                Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\Mood.Weather.Domain.Models.csproj" (default targets):
+
+                Target GetReferenceAssemblyPaths:
+                    C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+                Done building target "GetReferenceAssemblyPaths" in project "Mood.Weather.Domain.Models.csproj".
+                Target ResolveAssemblyReferences:
+                    C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+                    C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Data", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+                Done building target "ResolveAssemblyReferences" in project "Mood.Weather.Domain.Models.csproj".
+                Target GenerateTargetFrameworkMonikerAttribute:
+                  Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+                Target CoreCompile:
+                    C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll /reference:C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\Mood.Weather.Domain.Models.dll /subsystemversion:6.00 /target:library /utf8output Properties\AssemblyInfo.cs "C:\Users\p.ciobanu\AppData\Local\Temp\2\.NETFramework,Version=v4.0.3.AssemblyAttributes.cs"
+                Target _CopyFilesMarkedCopyLocal:
+                    Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll" to "bin\Debug\mscorlib.dll".
+                    Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normidna.nlp" to "bin\Debug\normidna.nlp".
+                    Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfc.nlp" to "bin\Debug\normnfc.nlp".
+                    Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfd.nlp" to "bin\Debug\normnfd.nlp".
+                    Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkc.nlp" to "bin\Debug\normnfkc.nlp".
+                    Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkd.nlp" to "bin\Debug\normnfkd.nlp".
+                Target CopyFilesToOutputDirectory:
+                    Copying file from "obj\Debug\Mood.Weather.Domain.Models.dll" to "bin\Debug\Mood.Weather.Domain.Models.dll".
+                    Mood.Weather.Domain.Models -> C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\Mood.Weather.Domain.Models.dll
+                    Copying file from "obj\Debug\Mood.Weather.Domain.Models.pdb" to "bin\Debug\Mood.Weather.Domain.Models.pdb".
+
+                Done building project "Mood.Weather.Domain.Models.csproj".
+                __________________________________________________
+                Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\Mood.Weather.Domain.Models.csproj" (default targets):
+
+                __________________________________________________
+                Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\Mood.Weather.Domain.csproj" (default targets):
+
+                Target GetReferenceAssemblyPaths:
+                    C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+                Done building target "GetReferenceAssemblyPaths" in project "Mood.Weather.Domain.csproj".
+                Target ResolveAssemblyReferences:
+                    C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+                    C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Data", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+                Done building target "ResolveAssemblyReferences" in project "Mood.Weather.Domain.csproj".
+                Target GenerateTargetFrameworkMonikerAttribute:
+                  Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+                Target CoreCompile:
+                    C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll /reference:C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\Mood.Weather.Domain.dll /subsystemversion:6.00 /target:library /utf8output Factories\IDbConnectionFactory.cs Factories\ISourceFactory.cs Factories\ITargetFactory.cs Factories\ITemplateFactory.cs HttpContentTypes.cs Properties\AssemblyInfo.cs "C:\Users\p.ciobanu\AppData\Local\Temp\2\.NETFramework,Version=v4.0.3.AssemblyAttributes.cs"
+                Target _CopyFilesMarkedCopyLocal:
+                    Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll" to "bin\Debug\mscorlib.dll".
+                    Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normidna.nlp" to "bin\Debug\normidna.nlp".
+                    Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfc.nlp" to "bin\Debug\normnfc.nlp".
+                    Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfd.nlp" to "bin\Debug\normnfd.nlp".
+                    Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkc.nlp" to "bin\Debug\normnfkc.nlp".
+                    Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkd.nlp" to "bin\Debug\normnfkd.nlp".
+                Target CopyFilesToOutputDirectory:
+                    Copying file from "obj\Debug\Mood.Weather.Domain.dll" to "bin\Debug\Mood.Weather.Domain.dll".
+                    Mood.Weather.Domain -> C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\Mood.Weather.Domain.dll
+                    Copying file from "obj\Debug\Mood.Weather.Domain.pdb" to "bin\Debug\Mood.Weather.Domain.pdb".
+
+                Done building project "Mood.Weather.Domain.csproj".
+                __________________________________________________
+                Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\Mood.Weather.Domain.csproj" (default targets):
+
+                __________________________________________________
+                Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\Mood.Weather.Domain.Models.csproj" (GetNativeManifest target(s)):
+
+                __________________________________________________
+                Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\Mood.Weather.Domain.csproj" (GetNativeManifest target(s)):
+
+            Target ResolveAssemblyReferences:
+                C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+                C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Data", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+            Done building target "ResolveAssemblyReferences" in project "Mood.Weather.Infrastructure.csproj".
+            Target GenerateTargetFrameworkMonikerAttribute:
+              Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+            Target CoreCompile:
+                C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Dapper.1.12.1\lib\net40\Dapper.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Dapper.Mapper.1.1.0\lib\Dapper.Mapper.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\DapperExtensions.1.4.1\lib\net40\DapperExtensions.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\Mood.Weather.Domain.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\Mood.Weather.Domain.Models.dll /reference:C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\Mood.Weather.Infrastructure.dll /subsystemversion:6.00 /target:library /utf8output Properties\AssemblyInfo.cs "C:\Users\p.ciobanu\AppData\Local\Temp\2\.NETFramework,Version=v4.0.3.AssemblyAttributes.cs"
+            Target _CopyFilesMarkedCopyLocal:
+                Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Dapper.1.12.1\lib\net40\Dapper.dll" to "bin\Debug\Dapper.dll".
+                Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Dapper.Mapper.1.1.0\lib\Dapper.Mapper.dll" to "bin\Debug\Dapper.Mapper.dll".
+                Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\DapperExtensions.1.4.1\lib\net40\DapperExtensions.dll" to "bin\Debug\DapperExtensions.dll".
+                Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\Mood.Weather.Domain.dll" to "bin\Debug\Mood.Weather.Domain.dll".
+                Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\Mood.Weather.Domain.Models.dll" to "bin\Debug\Mood.Weather.Domain.Models.dll".
+                Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll" to "bin\Debug\mscorlib.dll".
+                Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\Mood.Weather.Domain.Models.pdb" to "bin\Debug\Mood.Weather.Domain.Models.pdb".
+                Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\Mood.Weather.Domain.pdb" to "bin\Debug\Mood.Weather.Domain.pdb".
+                Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Dapper.1.12.1\lib\net40\Dapper.pdb" to "bin\Debug\Dapper.pdb".
+                Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Dapper.1.12.1\lib\net40\Dapper.xml" to "bin\Debug\Dapper.xml".
+                Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Dapper.Mapper.1.1.0\lib\Dapper.Mapper.pdb" to "bin\Debug\Dapper.Mapper.pdb".
+                Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\DapperExtensions.1.4.1\lib\net40\DapperExtensions.pdb" to "bin\Debug\DapperExtensions.pdb".
+                Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normidna.nlp" to "bin\Debug\normidna.nlp".
+                Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfc.nlp" to "bin\Debug\normnfc.nlp".
+                Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfd.nlp" to "bin\Debug\normnfd.nlp".
+                Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkc.nlp" to "bin\Debug\normnfkc.nlp".
+                Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkd.nlp" to "bin\Debug\normnfkd.nlp".
+            Target GetCopyToOutputDirectoryItems:
+                __________________________________________________
+                Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\Mood.Weather.Domain.Models.csproj" (GetCopyToOutputDirectoryItems target(s)):
+
+                __________________________________________________
+                Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\Mood.Weather.Domain.csproj" (GetCopyToOutputDirectoryItems target(s)):
+
+            Target CopyFilesToOutputDirectory:
+                Copying file from "obj\Debug\Mood.Weather.Infrastructure.dll" to "bin\Debug\Mood.Weather.Infrastructure.dll".
+                Mood.Weather.Infrastructure -> C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\Mood.Weather.Infrastructure.dll
+                Copying file from "obj\Debug\Mood.Weather.Infrastructure.pdb" to "bin\Debug\Mood.Weather.Infrastructure.pdb".
+
+            Done building project "Mood.Weather.Infrastructure.csproj".
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\Mood.Weather.Web.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" (default targets):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\Mood.Weather.Web.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" (GetNativeManifest target(s)):
+
+        Target ResolveAssemblyReferences:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3247: Found conflicts between different versions of the same dependent assembly.
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Data", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Web", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+        Done building target "ResolveAssemblyReferences" in project "Mood.Weather.Web.csproj".
+        Target GenerateTargetFrameworkMonikerAttribute:
+          Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+        Target CoreCompile:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\BundleTransformer.Core.1.6.24\lib\net40\BundleTransformer.Core.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Web.Optimization.0.1\lib\net40\Microsoft.Web.Optimization.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\Mood.Weather.Infrastructure.dll /reference:C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Ninject.3.0.1.10\lib\net40\Ninject.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Ninject.Web.Common.3.0.0.7\lib\net40-full\Ninject.Web.Common.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Ninject.MVC3.3.0.0.6\lib\net40-full\Ninject.Web.Mvc.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Entity\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Entity.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Abstractions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Abstractions.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.ApplicationServices\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.ApplicationServices.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.DynamicData\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.DynamicData.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Entity\v4.0_4.0.0.0__b77a5c561934e089\System.Web.Entity.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Extensions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Extensions.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Web.Providers.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Razor.2.0.20715.0\lib\net40\System.Web.Razor.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Routing\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Routing.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\WebActivator.1.5.3\lib\net40\WebActivator.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\WebActivatorEx.2.0.1\lib\net40\WebActivatorEx.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\WebGrease.1.3.0\lib\WebGrease.dll /debug+ /debug:full /optimize- /out:obj\Debug\Mood.Weather.Web.dll /subsystemversion:6.00 /target:library /utf8output App_Start\BundleConfig.cs App_Start\FilterConfig.cs App_Start\NinjectDependencyResolver.cs App_Start\NinjectDependencyScope.cs App_Start\NinjectServiceModule.cs App_Start\NinjectWebCommon.cs App_Start\RouteConfig.cs App_Start\WebApiConfig.cs Controllers\HomeController.cs Controllers\ValuesController.cs Controllers\WeatherController.cs Global.asax.cs Properties\AssemblyInfo.cs "C:\Users\p.ciobanu\AppData\Local\Temp\2\.NETFramework,Version=v4.0.3.AssemblyAttributes.cs"
+        Target _CopyFilesMarkedCopyLocal:
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll" to "bin\Antlr3.Runtime.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\BundleTransformer.Core.1.6.24\lib\net40\BundleTransformer.Core.dll" to "bin\BundleTransformer.Core.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" to "bin\EntityFramework.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" to "bin\Microsoft.Web.Infrastructure.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Web.Optimization.0.1\lib\net40\Microsoft.Web.Optimization.dll" to "bin\Microsoft.Web.Optimization.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\Mood.Weather.Infrastructure.dll" to "bin\Mood.Weather.Infrastructure.dll".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll" to "bin\mscorlib.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll" to "bin\Newtonsoft.Json.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Ninject.3.0.1.10\lib\net40\Ninject.dll" to "bin\Ninject.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Ninject.Web.Common.3.0.0.7\lib\net40-full\Ninject.Web.Common.dll" to "bin\Ninject.Web.Common.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Ninject.MVC3.3.0.0.6\lib\net40-full\Ninject.Web.Mvc.dll" to "bin\Ninject.Web.Mvc.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" to "bin\System.Net.Http.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" to "bin\System.Net.Http.Formatting.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" to "bin\System.Net.Http.WebRequest.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" to "bin\System.Web.Helpers.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" to "bin\System.Web.Http.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" to "bin\System.Web.Http.WebHost.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" to "bin\System.Web.Mvc.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll" to "bin\System.Web.Optimization.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Web.Providers.dll" to "bin\System.Web.Providers.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Razor.2.0.20715.0\lib\net40\System.Web.Razor.dll" to "bin\System.Web.Razor.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" to "bin\System.Web.WebPages.Deployment.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" to "bin\System.Web.WebPages.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" to "bin\System.Web.WebPages.Razor.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\WebActivator.1.5.3\lib\net40\WebActivator.dll" to "bin\WebActivator.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\WebActivatorEx.2.0.1\lib\net40\WebActivatorEx.dll" to "bin\WebActivatorEx.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\WebGrease.1.3.0\lib\WebGrease.dll" to "bin\WebGrease.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\bin\Debug\Mood.Weather.Infrastructure.pdb" to "bin\Mood.Weather.Infrastructure.pdb".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.pdb" to "bin\Antlr3.Runtime.pdb".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.xml" to "bin\Newtonsoft.Json.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Ninject.3.0.1.10\lib\net40\Ninject.pdb" to "bin\Ninject.pdb".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Ninject.3.0.1.10\lib\net40\Ninject.xml" to "bin\Ninject.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Ninject.Web.Common.3.0.0.7\lib\net40-full\Ninject.Web.Common.pdb" to "bin\Ninject.Web.Common.pdb".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Ninject.Web.Common.3.0.0.7\lib\net40-full\Ninject.Web.Common.xml" to "bin\Ninject.Web.Common.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Ninject.MVC3.3.0.0.6\lib\net40-full\Ninject.Web.Mvc.pdb" to "bin\Ninject.Web.Mvc.pdb".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Ninject.MVC3.3.0.0.6\lib\net40-full\Ninject.Web.Mvc.xml" to "bin\Ninject.Web.Mvc.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Razor.2.0.20715.0\lib\net40\System.Web.Razor.xml" to "bin\System.Web.Razor.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.xml" to "bin\EntityFramework.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.xml" to "bin\System.Net.Http.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.xml" to "bin\System.Net.Http.Formatting.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.xml" to "bin\System.Net.Http.WebRequest.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.xml" to "bin\System.Web.Helpers.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.xml" to "bin\System.Web.Http.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.xml" to "bin\System.Web.Http.WebHost.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.xml" to "bin\System.Web.Mvc.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.xml" to "bin\System.Web.WebPages.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.xml" to "bin\System.Web.WebPages.Deployment.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.xml" to "bin\System.Web.WebPages.Razor.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\BundleTransformer.Core.1.6.24\lib\net40\ru-ru\BundleTransformer.Core.resources.dll" to "bin\ru-ru\BundleTransformer.Core.resources.dll".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normidna.nlp" to "bin\normidna.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfc.nlp" to "bin\normnfc.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfd.nlp" to "bin\normnfd.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkc.nlp" to "bin\normnfkc.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkd.nlp" to "bin\normnfkd.nlp".
+        Target GetCopyToOutputDirectoryItems:
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\Mood.Weather.Web.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Infrastructure\Mood.Weather.Infrastructure.csproj" (GetCopyToOutputDirectoryItems target(s)):
+
+        Target CopyFilesToOutputDirectory:
+            Copying file from "obj\Debug\Mood.Weather.Web.dll" to "bin\Mood.Weather.Web.dll".
+            Mood.Weather.Web -> C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Mood.Weather.Web.dll
+            Copying file from "obj\Debug\Mood.Weather.Web.pdb" to "bin\Mood.Weather.Web.pdb".
+
+        Done building project "Mood.Weather.Web.csproj".
+        __________________________________________________
+        Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.sln" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\Mood.Weather.Web.Tests.csproj" (default targets):
+
+        Target GetReferenceAssemblyPaths:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+        Done building target "GetReferenceAssemblyPaths" in project "Mood.Weather.Web.Tests.csproj".
+        Target ResolveProjectReferences:
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\Mood.Weather.Web.Tests.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\Mood.Weather.Web.csproj" (default targets):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\Mood.Weather.Web.Tests.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\Mood.Weather.Web.csproj" (GetNativeManifest target(s)):
+
+        Target ResolveAssemblyReferences:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3247: Found conflicts between different versions of the same dependent assembly.
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Data", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Web", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+        Done building target "ResolveAssemblyReferences" in project "Mood.Weather.Web.Tests.csproj".
+        Target GenerateTargetFrameworkMonikerAttribute:
+          Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+        Target CoreCompile:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Mood.Weather.Web.dll /reference:C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\NUnit.2.6.2\lib\nunit.framework.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Abstractions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Abstractions.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.ApplicationServices\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.ApplicationServices.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Extensions\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Extensions.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Routing\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.Routing.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\Mood.Weather.Web.Tests.dll /subsystemversion:6.00 /target:library /utf8output Controllers\WeatherControllerTest.cs Properties\AssemblyInfo.cs Controllers\ValuesControllerTest.cs "C:\Users\p.ciobanu\AppData\Local\Temp\2\.NETFramework,Version=v4.0.3.AssemblyAttributes.cs"
+        Target _CopyFilesMarkedCopyLocal:
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" to "bin\Debug\Microsoft.Web.Infrastructure.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Mood.Weather.Web.dll" to "bin\Debug\Mood.Weather.Web.dll".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll" to "bin\Debug\mscorlib.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" to "bin\Debug\Newtonsoft.Json.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\NUnit.2.6.2\lib\nunit.framework.dll" to "bin\Debug\nunit.framework.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" to "bin\Debug\System.Net.Http.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" to "bin\Debug\System.Net.Http.Formatting.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" to "bin\Debug\System.Net.Http.WebRequest.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" to "bin\Debug\System.Web.Helpers.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" to "bin\Debug\System.Web.Http.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" to "bin\Debug\System.Web.Http.WebHost.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" to "bin\Debug\System.Web.Mvc.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" to "bin\Debug\System.Web.Razor.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" to "bin\Debug\System.Web.WebPages.Deployment.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" to "bin\Debug\System.Web.WebPages.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" to "bin\Debug\System.Web.WebPages.Razor.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Ninject.dll" to "bin\Debug\Ninject.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\System.Web.Optimization.dll" to "bin\Debug\System.Web.Optimization.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Ninject.Web.Common.dll" to "bin\Debug\Ninject.Web.Common.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\WebActivator.dll" to "bin\Debug\WebActivator.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Mood.Weather.Web.pdb" to "bin\Debug\Mood.Weather.Web.pdb".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\NUnit.2.6.2\lib\nunit.framework.xml" to "bin\Debug\nunit.framework.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.xml" to "bin\Debug\Newtonsoft.Json.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.xml" to "bin\Debug\System.Net.Http.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.xml" to "bin\Debug\System.Net.Http.Formatting.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.xml" to "bin\Debug\System.Net.Http.WebRequest.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.xml" to "bin\Debug\System.Web.Helpers.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.xml" to "bin\Debug\System.Web.Http.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.xml" to "bin\Debug\System.Web.Http.WebHost.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.xml" to "bin\Debug\System.Web.Mvc.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.xml" to "bin\Debug\System.Web.Razor.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.xml" to "bin\Debug\System.Web.WebPages.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.xml" to "bin\Debug\System.Web.WebPages.Deployment.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.xml" to "bin\Debug\System.Web.WebPages.Razor.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Ninject.pdb" to "bin\Debug\Ninject.pdb".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Ninject.xml" to "bin\Debug\Ninject.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Ninject.Web.Common.pdb" to "bin\Debug\Ninject.Web.Common.pdb".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Ninject.Web.Common.xml" to "bin\Debug\Ninject.Web.Common.xml".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normidna.nlp" to "bin\Debug\normidna.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfc.nlp" to "bin\Debug\normnfc.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfd.nlp" to "bin\Debug\normnfd.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkc.nlp" to "bin\Debug\normnfkc.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkd.nlp" to "bin\Debug\normnfkd.nlp".
+        Target GetCopyToOutputDirectoryItems:
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\Mood.Weather.Web.Tests.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\Mood.Weather.Web.csproj" (GetCopyToOutputDirectoryItems target(s)):
+
+        Target _CopyAppConfigFile:
+            Copying file from "App.config" to "bin\Debug\Mood.Weather.Web.Tests.dll.config".
+        Target CopyFilesToOutputDirectory:
+            Copying file from "obj\Debug\Mood.Weather.Web.Tests.dll" to "bin\Debug\Mood.Weather.Web.Tests.dll".
+            Mood.Weather.Web.Tests -> C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Mood.Weather.Web.Tests.dll
+            Copying file from "obj\Debug\Mood.Weather.Web.Tests.pdb" to "bin\Debug\Mood.Weather.Web.Tests.pdb".
+
+        Done building project "Mood.Weather.Web.Tests.csproj".
+        __________________________________________________
+        Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.sln" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\Mood.Weather.Client.csproj" (default targets):
+
+        Target GetReferenceAssemblyPaths:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+        Done building target "GetReferenceAssemblyPaths" in project "Mood.Weather.Client.csproj".
+        Target ResolveProjectReferences:
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\Mood.Weather.Client.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\Mood.Weather.Domain.Models.csproj" (default targets):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\Mood.Weather.Client.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\Mood.Weather.Domain.csproj" (default targets):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\Mood.Weather.Client.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\Mood.Weather.Domain.Models.csproj" (GetNativeManifest target(s)):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\Mood.Weather.Client.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\Mood.Weather.Domain.csproj" (GetNativeManifest target(s)):
+
+        Target ResolveAssemblyReferences:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Data", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+        Done building target "ResolveAssemblyReferences" in project "Mood.Weather.Client.csproj".
+        Target GenerateTargetFrameworkMonikerAttribute:
+          Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+        Target CoreCompile:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\Mood.Weather.Domain.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\Mood.Weather.Domain.Models.dll /reference:C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Security\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Security.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\Mood.Weather.Client.dll /subsystemversion:6.00 /target:library /utf8output Factories\IMediaTypeFormatterFactory.cs Factories\JsonFormatterFactory.cs Factories\MediaTypeFormatters.cs Factories\XmlFormatterFactory.cs Properties\AssemblyInfo.cs WebApiClient.cs "C:\Users\p.ciobanu\AppData\Local\Temp\2\.NETFramework,Version=v4.0.3.AssemblyAttributes.cs"
+        Target _CopyFilesMarkedCopyLocal:
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\Mood.Weather.Domain.dll" to "bin\Debug\Mood.Weather.Domain.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\Mood.Weather.Domain.Models.dll" to "bin\Debug\Mood.Weather.Domain.Models.dll".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll" to "bin\Debug\mscorlib.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll" to "bin\Debug\Newtonsoft.Json.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" to "bin\Debug\System.Net.Http.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" to "bin\Debug\System.Net.Http.Formatting.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" to "bin\Debug\System.Net.Http.WebRequest.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\Mood.Weather.Domain.Models.pdb" to "bin\Debug\Mood.Weather.Domain.Models.pdb".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\Mood.Weather.Domain.pdb" to "bin\Debug\Mood.Weather.Domain.pdb".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.xml" to "bin\Debug\Newtonsoft.Json.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.xml" to "bin\Debug\System.Net.Http.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.xml" to "bin\Debug\System.Net.Http.Formatting.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.xml" to "bin\Debug\System.Net.Http.WebRequest.xml".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normidna.nlp" to "bin\Debug\normidna.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfc.nlp" to "bin\Debug\normnfc.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfd.nlp" to "bin\Debug\normnfd.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkc.nlp" to "bin\Debug\normnfkc.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkd.nlp" to "bin\Debug\normnfkd.nlp".
+        Target GetCopyToOutputDirectoryItems:
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\Mood.Weather.Client.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\Mood.Weather.Domain.Models.csproj" (GetCopyToOutputDirectoryItems target(s)):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\Mood.Weather.Client.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\Mood.Weather.Domain.csproj" (GetCopyToOutputDirectoryItems target(s)):
+
+        Target CopyFilesToOutputDirectory:
+            Copying file from "obj\Debug\Mood.Weather.Client.dll" to "bin\Debug\Mood.Weather.Client.dll".
+            Mood.Weather.Client -> C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\Mood.Weather.Client.dll
+            Copying file from "obj\Debug\Mood.Weather.Client.pdb" to "bin\Debug\Mood.Weather.Client.pdb".
+
+        Done building project "Mood.Weather.Client.csproj".
+        __________________________________________________
+        Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.sln" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\Mood.Weather.Client.Test.csproj" (default targets):
+
+        Target GetReferenceAssemblyPaths:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+        Done building target "GetReferenceAssemblyPaths" in project "Mood.Weather.Client.Test.csproj".
+        Target ResolveProjectReferences:
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\Mood.Weather.Client.Test.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\Mood.Weather.Client.csproj" (default targets):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\Mood.Weather.Client.Test.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\Mood.Weather.Domain.Models.csproj" (default targets):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\Mood.Weather.Client.Test.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\Mood.Weather.Domain.csproj" (default targets):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\Mood.Weather.Client.Test.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\Mood.Weather.Domain.Models.csproj" (GetNativeManifest target(s)):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\Mood.Weather.Client.Test.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\Mood.Weather.Domain.csproj" (GetNativeManifest target(s)):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\Mood.Weather.Client.Test.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\Mood.Weather.Client.csproj" (GetNativeManifest target(s)):
+
+        Target ResolveAssemblyReferences:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+        Done building target "ResolveAssemblyReferences" in project "Mood.Weather.Client.Test.csproj".
+        Target GenerateTargetFrameworkMonikerAttribute:
+          Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+        Target CoreCompile:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\Mood.Weather.Client.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\Mood.Weather.Domain.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\Mood.Weather.Domain.Models.dll /reference:C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\NUnit.2.6.2\lib\nunit.framework.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\NUnitHelpers.0.1.2.0\lib\nunit.framework.helpers.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\NUnit.Mocks.2.6.2\lib\nunit.mocks.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll /reference:C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\Mood.Weather.Client.Test.dll /subsystemversion:6.00 /target:library /utf8output MediaTypeFormatterTests.cs Properties\AssemblyInfo.cs "C:\Users\p.ciobanu\AppData\Local\Temp\2\.NETFramework,Version=v4.0.3.AssemblyAttributes.cs"
+        Target _CopyFilesMarkedCopyLocal:
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\Mood.Weather.Client.dll" to "bin\Debug\Mood.Weather.Client.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\Mood.Weather.Domain.dll" to "bin\Debug\Mood.Weather.Domain.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\Mood.Weather.Domain.Models.dll" to "bin\Debug\Mood.Weather.Domain.Models.dll".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll" to "bin\Debug\mscorlib.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll" to "bin\Debug\Newtonsoft.Json.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\NUnit.2.6.2\lib\nunit.framework.dll" to "bin\Debug\nunit.framework.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\NUnitHelpers.0.1.2.0\lib\nunit.framework.helpers.dll" to "bin\Debug\nunit.framework.helpers.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\NUnit.Mocks.2.6.2\lib\nunit.mocks.dll" to "bin\Debug\nunit.mocks.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" to "bin\Debug\System.Net.Http.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" to "bin\Debug\System.Net.Http.Formatting.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" to "bin\Debug\System.Net.Http.WebRequest.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\bin\Debug\Mood.Weather.Client.pdb" to "bin\Debug\Mood.Weather.Client.pdb".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\bin\Debug\Mood.Weather.Domain.Models.pdb" to "bin\Debug\Mood.Weather.Domain.Models.pdb".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\bin\Debug\Mood.Weather.Domain.pdb" to "bin\Debug\Mood.Weather.Domain.pdb".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.xml" to "bin\Debug\Newtonsoft.Json.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\NUnit.2.6.2\lib\nunit.framework.xml" to "bin\Debug\nunit.framework.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\NUnitHelpers.0.1.2.0\lib\nunit.framework.helpers.pdb" to "bin\Debug\nunit.framework.helpers.pdb".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.xml" to "bin\Debug\System.Net.Http.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.xml" to "bin\Debug\System.Net.Http.Formatting.xml".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Web\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.xml" to "bin\Debug\System.Net.Http.WebRequest.xml".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normidna.nlp" to "bin\Debug\normidna.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfc.nlp" to "bin\Debug\normnfc.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfd.nlp" to "bin\Debug\normnfd.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkc.nlp" to "bin\Debug\normnfkc.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkd.nlp" to "bin\Debug\normnfkd.nlp".
+        Target GetCopyToOutputDirectoryItems:
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\Mood.Weather.Client.Test.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client\Mood.Weather.Client.csproj" (GetCopyToOutputDirectoryItems target(s)):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\Mood.Weather.Client.Test.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain.Models\Mood.Weather.Domain.Models.csproj" (GetCopyToOutputDirectoryItems target(s)):
+
+            __________________________________________________
+            Project "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\Mood.Weather.Client.Test.csproj" is building "C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Domain\Mood.Weather.Domain.csproj" (GetCopyToOutputDirectoryItems target(s)):
+
+        Target _CopyAppConfigFile:
+            Copying file from "app.config" to "bin\Debug\Mood.Weather.Client.Test.dll.config".
+        Target CopyFilesToOutputDirectory:
+            Copying file from "obj\Debug\Mood.Weather.Client.Test.dll" to "bin\Debug\Mood.Weather.Client.Test.dll".
+            Mood.Weather.Client.Test -> C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\Mood.Weather.Client.Test.dll
+            Copying file from "obj\Debug\Mood.Weather.Client.Test.pdb" to "bin\Debug\Mood.Weather.Client.Test.pdb".
+
+        Done building project "Mood.Weather.Client.Test.csproj".
+    nunit-console C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web.Tests\bin\Debug\Mood.Weather.Web.Tests.dll /xml=C:\JenkinsWorkspace\Statistics\Mood.Weather.Web.Test.xml
+    NUnit-Console version 2.6.2.12296
+    Copyright (C) 2002-2012 Charlie Poole.
+    Copyright (C) 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov.
+    Copyright (C) 2000-2002 Philip Craig.
+    All Rights Reserved.
+    
+    Runtime Environment - 
+       OS Version: Microsoft Windows NT 6.1.7601 Service Pack 1
+      CLR Version: 2.0.50727.5466 ( Net 2.0 )
+    
+    ProcessModel: Default    DomainUsage: Single
+    Execution Runtime: net-2.0
+    ...........
+    Tests run: 11, Errors: 0, Failures: 0, Inconclusive: 0, Time: 0.1715978 seconds
+      Not run: 0, Invalid: 0, Ignored: 0, Skipped: 0
+    
+    nunit-console C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Client.Test\bin\Debug\Mood.Weather.Client.Test.dll /xml=C:\JenkinsWorkspace\Statistics\Mood.Weather.Client.Test.xml
+    NUnit-Console version 2.6.2.12296
+    Copyright (C) 2002-2012 Charlie Poole.
+    Copyright (C) 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov.
+    Copyright (C) 2000-2002 Philip Craig.
+    All Rights Reserved.
+    
+    Runtime Environment - 
+       OS Version: Microsoft Windows NT 6.1.7601 Service Pack 1
+      CLR Version: 2.0.50727.5466 ( Net 2.0 )
+    
+    ProcessModel: Default    DomainUsage: Single
+    Execution Runtime: net-2.0
+    ...
+    Tests run: 3, Errors: 0, Failures: 0, Inconclusive: 0, Time: 0.2027974 seconds
+      Not run: 0, Invalid: 0, Ignored: 0, Skipped: 0
+    
+    fxcopcmd /f:C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Mood.Weather.Web.dll /o:C:\JenkinsWorkspace\Statistics\codeAnalisys.fxcop
+    Microsoft (R) FxCop Command-Line Tool, Version 10.0 (10.0.30319.1) X86
+    Copyright (C) Microsoft Corporation, All Rights Reserved.
+    
+    Loaded designrules.dll...
+    Loaded globalizationrules.dll...
+    Loaded interoperabilityrules.dll...
+    Loaded mobilityrules.dll...
+    Loaded namingrules.dll...
+    Loaded performancerules.dll...
+    Loaded portabilityrules.dll...
+    Loaded securityrules.dll...
+    Loaded securitytransparencyrules.dll...
+    Loaded usagerules.dll...
+    Could not load C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Mood.Weather.Web.dll.
+    
+    NOTE: One or more referenced assemblies could not be found. Use the '/directory' or '/reference' switch to specify additional assembly reference search paths.
+    
+    * Analysis was not performed; at least one valid rules assembly and one valid
+    target file must be specified.
+    * 2 total analysis engine exceptions.
+    Writing project to C:\JenkinsWorkspace\Statistics\codeAnalisys.fxcop...
+    Done:00:00:00.6083922
+    MSBUILD : warning MSB3073: The command "fxcopcmd /f:C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Mood.Weather.Web.dll /o:C:\JenkinsWorkspace\Statistics\codeAnalisys.fxcop" exited with code 521.
+    The previous error was converted to a warning because the task was called with ContinueOnError=true.
+    Build continuing because "ContinueOnError" on the task "Exec" is set to "true".
+Done building target "BuildMoodWeatherWeb" in project "MoodWeather.build".
+Target BuildMoodWeatherDatabase:
+    __________________________________________________
+    Project "C:\JenkinsWorkspace\MoodWeather.build" is building "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database.sln" (Clean;Build target(s)):
+
+    Target ValidateSolutionConfiguration:
+        Building solution configuration "Debug|x86".
+    Target Clean:
+        __________________________________________________
+        Project "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database.sln" is building "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\Mood.Weather.Database.csproj" (Clean target(s)):
+
+        Target CoreClean:
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\bin\Debug\Mood.Weather.Database.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\bin\Debug\Mood.Weather.Database.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\bin\Debug\FluentMigrator.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\bin\Debug\mscorlib.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\bin\Debug\FluentMigrator.pdb".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\bin\Debug\FluentMigrator.xml".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\bin\Debug\normidna.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\bin\Debug\normnfc.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\bin\Debug\normnfd.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\bin\Debug\normnfkc.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\bin\Debug\normnfkd.nlp".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\obj\x86\Debug\Mood.Weather.Database.csprojResolveAssemblyReference.cache".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\obj\x86\Debug\Mood.Weather.Database.dll".
+            Deleting file "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\obj\x86\Debug\Mood.Weather.Database.pdb".
+    Target Build:
+        __________________________________________________
+        Project "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database.sln" is building "C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\Mood.Weather.Database.csproj" (default targets):
+
+        Target GetReferenceAssemblyPaths:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3,Profile=Client" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+        Done building target "GetReferenceAssemblyPaths" in project "Mood.Weather.Database.csproj".
+        Target ResolveAssemblyReferences:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+        Done building target "ResolveAssemblyReferences" in project "Mood.Weather.Database.csproj".
+        Target GenerateTargetFrameworkMonikerAttribute:
+          Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+        Target CoreCompile:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:AnyCPU /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:C:\JenkinsWorkspace\Mood.Weather.Database\packages\FluentMigrator.1.0.6.0\lib\40\FluentMigrator.dll /reference:C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll /reference:C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll /debug+ /debug:full /filealign:512 /optimize- /out:obj\x86\Debug\Mood.Weather.Database.dll /subsystemversion:6.00 /target:library /utf8output DatabaseStructureV1.cs Properties\Settings.Designer.cs "C:\Users\p.ciobanu\AppData\Local\Temp\2\.NETFramework,Version=v4.0.3,Profile=Client.AssemblyAttributes.cs"
+        Target _CopyFilesMarkedCopyLocal:
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Database\packages\FluentMigrator.1.0.6.0\lib\40\FluentMigrator.dll" to "bin\Debug\FluentMigrator.dll".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll" to "bin\Debug\mscorlib.dll".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Database\packages\FluentMigrator.1.0.6.0\lib\40\FluentMigrator.pdb" to "bin\Debug\FluentMigrator.pdb".
+            Copying file from "C:\JenkinsWorkspace\Mood.Weather.Database\packages\FluentMigrator.1.0.6.0\lib\40\FluentMigrator.xml" to "bin\Debug\FluentMigrator.xml".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normidna.nlp" to "bin\Debug\normidna.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfc.nlp" to "bin\Debug\normnfc.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfd.nlp" to "bin\Debug\normnfd.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkc.nlp" to "bin\Debug\normnfkc.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkd.nlp" to "bin\Debug\normnfkd.nlp".
+        Target CopyFilesToOutputDirectory:
+            Copying file from "obj\x86\Debug\Mood.Weather.Database.dll" to "bin\Debug\Mood.Weather.Database.dll".
+            Mood.Weather.Database -> C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\bin\Debug\Mood.Weather.Database.dll
+            Copying file from "obj\x86\Debug\Mood.Weather.Database.pdb" to "bin\Debug\Mood.Weather.Database.pdb".
+
+        Done building project "Mood.Weather.Database.csproj".
+    Migrate.exe --conn=server=192.168.0.193;user=sa;pwd=K4hvdrq2d3;database=weather  --provider sqlserver2008 --assembly=C:\JenkinsWorkspace\Mood.Weather.Database\Mood.Weather.Database\bin\Debug\Mood.Weather.Database.dll --task migrate --version 1 --verbose 5
+    /* Using Database sqlserver2008 and Connection String server=192.168.0.193;user=sa;pwd=K4hvdrq2d3;database=weather */
+    /* Beginning Transaction */
+    /* VersionMigration migrating ================================================ */
+    
+    /* CreateTable VersionInfo */
+    CREATE TABLE [dbo].[VersionInfo] ([Version] BIGINT NOT NULL)
+    /* -> 0.0155998s */
+    
+    /* VersionMigration migrated */
+    /* -> 0.0155998s */
+    
+    /* VersionUniqueMigration migrating ========================================== */
+    
+    /* CreateIndex VersionInfo (Version) */
+    CREATE UNIQUE CLUSTERED INDEX [UC_Version] ON [dbo].[VersionInfo] ([Version] ASC)
+    /* -> 0.0155998s */
+    
+    /* AlterTable VersionInfo */
+    /* No SQL statement executed. */
+    /* -> 0s */
+    
+    /* CreateColumn VersionInfo AppliedOn DateTime */
+    ALTER TABLE [dbo].[VersionInfo] ADD [AppliedOn] DATETIME
+    /* -> 0.0155998s */
+    
+    /* VersionUniqueMigration migrated */
+    /* -> 0.0155998s */
+    
+    /* Committing Transaction */
+    /* Task completed. */
+
+Done building project "MoodWeather.build".
+
+Build succeeded.
+
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Data", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Data", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Data", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3247: Found conflicts between different versions of the same dependent assembly.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Data", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Web", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3247: Found conflicts between different versions of the same dependent assembly.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Data", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Web", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Data", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+MSBUILD : warning MSB3073: The command "fxcopcmd /f:C:\JenkinsWorkspace\Mood.Weather.Web\Mood.Weather.Web\bin\Mood.Weather.Web.dll /o:C:\JenkinsWorkspace\Statistics\codeAnalisys.fxcop" exited with code 521.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3,Profile=Client" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0.3" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+    28 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:10.20
